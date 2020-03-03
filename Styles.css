@@ -1,6 +1,6 @@
 /*  updated CSS 3/3/20 2:06M */
 
-/* Responsible for text changing sizes upon screen changing 600px  */
+/* Responsible for text changing sizes upon screen changing 600px  
 @media screen and (max-width: 600px) {
   div.example {
     font-size: 50%;
@@ -12,6 +12,7 @@
     font-size: 50%;
   }
 }
+*/
 
 img{
   max-width: 100%;
@@ -135,8 +136,7 @@ text-align: center;
 
 
 footer{
-  display: fixed;
-  overflow:hidden;
+  
   background-color: hsl(240, 0%, 50%);
   width: 181.5vh;
   margin-top: 2vh;
@@ -174,7 +174,7 @@ footer img{
   .containter p{
     font-size: 1vw;
     word-spacing: 10px;
-    word-break: 10px;
+    word-break: keep-all;
     line-height: 40px;
     
   }
@@ -285,7 +285,7 @@ footer img{
 
   .iptext p {
     word-spacing: 5px;
-    word-break: 5px;
+    word-break: keep-all;
     line-height: 40px;
   }
 
