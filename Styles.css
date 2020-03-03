@@ -55,17 +55,51 @@ padding-bottom: 90px;
 text-align: center;
 }
 
+.buttonNav{
+  box-shadow: 0px 1px 0px 0px #ebebeb;
+	background:linear-gradient(to bottom, #858585 5%, #e0e0e0 100%);
+	background-color:#858585;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.buttonNav:hover{
+  box-shadow: 0px 1px 0px 0px #ebebeb;
+	background:linear-gradient(to bottom, #EDC563 5%, #e0e0e0 100%);
+	background-color:#EDC563;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
 .logo {
     display: inline-block;
-    vertical-align: top;
-    width:auto;
-    height: 150px;
+    margin: 5px;
+    width: auto;
+    height: 15vh;
+    width: auto;
 }
 
 .linknav{
     float: right;
-    vertical-align: top, right;
-    padding: 20px;
+    
     margin: 50px;
   
 }
@@ -80,7 +114,14 @@ text-align: center;
 }
 
 .linknav :hover{
-    background-color: white;
+    opacity: 75%;
+    background-color: #EDC563;
+    border-style: solid;
+    border-width: 5px;
+    border-color: Black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #6b6b6b;
 }
 
 .Fimg{
@@ -94,7 +135,7 @@ footer{
   display: fixed;
   overflow:hidden;
   background-color: hsl(240, 0%, 50%);
-  width: 175vh;
+  width: 181.5vh;
   margin-top: 2vh;
 
 }
