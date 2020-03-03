@@ -1,4 +1,4 @@
-d/*  updated CSS 3/3/20 2:06M */
+/*  updated CSS 3/3/20 2:06M */
 
 /* Responsible for text changing sizes upon screen changing 600px  */
 @media screen and (max-width: 600px) {
@@ -124,12 +124,15 @@ text-align: center;
     background-color: #6b6b6b;
 }
 
+/* padding-left: 25vh; */
 .Fimg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
-  padding-left: 25vh;
-  margin: 0 auto;
-  display: inline-block;
 }
+
+
 
 footer{
   display: fixed;
@@ -140,13 +143,17 @@ footer{
 
 }
 
+#topper{
+  font-size: 5vh;
+  float: right;
+  border-style: solid;
+  border-width: 1vh;
+  border-color: white;
+  background-color: darkgray;
+}
+
 footer a{
-font-size: 5vh;
-float: right;
-border-style: solid;
-border-width: 1vh;
-border-color: white;
-background-color: darkgray;
+ width: auto;
 }
 
 footer img{
@@ -156,8 +163,8 @@ footer img{
 
 
 .containter{
-  margin-left: 25vh;
-    width: 67.5vw;
+  margin-left: 27.8vh;
+    width: 67.56vw;
     height: 60vh;
     border: 2px solid black;
     background-color: lightgray;
@@ -313,4 +320,6 @@ footer img{
   .card button:hover {
     opacity: 0.7;
   }
+
+
  
