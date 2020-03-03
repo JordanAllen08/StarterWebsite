@@ -1,11 +1,57 @@
+
+/* Responsible for text changing sizes upon screen changing 600px  */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 50%;
+  }
+}
+
+img{
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
 body{
+ 
     background-image: url(Images/YellowBoard.jpg);
     background-size: 1920px;
 }
 
+.spaceplace{
+padding-top: 90px;
+padding-bottom: 90px;
+}
+
 .navigation-bar{
-background-color: darkgray;
-width: 100%;
+  padding-left: 50px;
+  background-color: hsl(240, 0%, 45%);
+  width: 175vh;
+  white-space:nowrap;
+  position: fixed;
+ 
+}
+
+.linknav nav ul {
+  white-space:nowrap;
+  padding: 2em;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+ 
+}
+
+.linknav nav ul li {
+  min-width:55px;
+  white-space:nowrap;
+  display: table-cell;
+text-align: center;
 }
 
 .logo {
@@ -37,37 +83,53 @@ width: 100%;
 }
 
 .Fimg{
-  left: 50%;
-  padding: 10px;
+  
+  padding-left: 25vh;
   margin: 0 auto;
   display: inline-block;
 }
 
 footer{
-    background-color: darkgray;
+  display: fixed;
+  overflow:hidden;
+  background-color: hsl(240, 0%, 50%);
+  width: 175vh;
+  margin-top: 2vh;
 
 }
 
 footer a{
-font-size: 25px;
+font-size: 5vh;
 float: right;
 border-style: solid;
-border-width: 5px;
+border-width: 1vh;
 border-color: white;
 background-color: darkgray;
 }
 
+footer img{
+  width: 2vw;
+  height: 2vh;
+}
+
+
 .containter{
-    padding: 100px;
-    margin: 10px;
-    height: 300px;
-    line-height: 100px;
-    width: 800px;
-    text-align: LEFT;
+  margin-left: 25vh;
+    width: 67.5vw;
+    height: 60vh;
     border: 2px solid black;
     background-color: lightgray;
+    overflow:hidden;
   }
 
+  .containter p{
+    font-size: 1vw;
+    word-spacing: 10px;
+    word-break: 10px;
+    line-height: 40px;
+    
+  }
+  
 
   .containter span {
     font-size: 20px;
@@ -94,13 +156,15 @@ background-color: darkgray;
   .columnRI {
     float: left;
     width: 35%;
-    padding: 15px;
-    margin: 10px;
+    padding: 50px;
+    bottom: 25px;
+    margin: 25px;
     
   }
 
   .columnRI img{
-      padding: 10px;
+      padding: 0px;
+      width: 500vh;
   }
 
   .columnRI button{
@@ -162,20 +226,29 @@ background-color: darkgray;
 
   .iptext{
     font-size: 30px;
+
     background-color: gray;
     border-style: solid;
     border-width: 10px; 
     border-color: white;
+    height: 150vh;
+  }
+
+  .iptext p {
+    word-spacing: 5px;
+    word-break: 5px;
+    line-height: 40px;
   }
 
 
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 450px;
+    box-shadow: 1px 4px 8px 0 hsl(220, 0%, 15%);
+    max-width: 500vh;
     margin: auto;
     text-align: center;
     font-family: arial;
-    background-color: darkgray;
+    background-color: hsl(240, 0%, 25%);
+    padding: 25px;
   }
   
   .price {
