@@ -34,19 +34,39 @@ padding-bottom: 90px;
 }
 
 .navigation-bar{
-  padding-left: 50px;
   background-color: hsl(240, 0%, 45%);
   width: 175vh;
   white-space:nowrap;
   position: fixed;
- 
+  border: solid 5px black;
+   margin: 15px;
+   height: 12vh;
+}
+
+.navigation-bar img{
+  height: 10.5vh;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-name: slide;
+  animation: slide 10s infinite
+  
+
+}
+
+@keyframes slide{
+  0%   { left:525px; top:0px;}
+  25%  { left:250px; top:0px;}
+  50%  { left:0px; top:0px;}
+  75%  { left:250px; top:0px;}
+  100% { left:525px; top:0px;}
+
 }
 
 .linknav nav ul {
   white-space:nowrap;
-  padding: 2em;
   left: 50%;
-  top: 0%;
   transform: translateX(-50%);
  
 }
@@ -55,7 +75,7 @@ padding-bottom: 90px;
   min-width:55px;
   white-space:nowrap;
   display: table-cell;
-text-align: center;
+  text-align: center;
 }
 
 .buttonNav{
@@ -92,9 +112,11 @@ text-align: center;
 	text-shadow:0px 1px 0px #ffffff;
 }
 
+
+
 .logo {
     display: inline-block;
-    margin: 5px;
+    margin: 15px;
     width: auto;
     height: 15vh;
     width: auto;
@@ -102,8 +124,7 @@ text-align: center;
 
 .linknav{
     float: right;
-    
-    margin: 50px;
+    margin: 10px;
   
 }
 
