@@ -29,14 +29,13 @@ img{
 
 body{
  
-    background-image: url(Images/YellowBoard.jpg);
+    background-image: url(../Images/YellowBoard.jpg);
     background-size: 1920px;
 }
 
 @media screen and (max-width:768px){
   body{
- 
-  background-image: url(Images/YellowBoard.jpg);
+  background-image: url(../Images/YellowBoard.jpg);
   background-size: 350vh;
   }
 }
