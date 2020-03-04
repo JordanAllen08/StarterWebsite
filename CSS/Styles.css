@@ -30,7 +30,7 @@ img{
 body{
  
     background-image: url(../Images/YellowBoard.jpg);
-    background-size: 1920px;
+    background-size: auto;
 }
 
 @media screen and (max-width:768px){
