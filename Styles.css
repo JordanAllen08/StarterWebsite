@@ -1,6 +1,8 @@
 /*  updated CSS 3/3/20 6:07M */
 
-/* Responsible for text changing sizes upon screen changing 600px  */
+/* Responsible for text changing sizes upon screen changing 600px 
+CSS - error was browser related upon switching browsers the .css file was updated!
+*/
 @media screen and (max-width: 600px) {
   div.example {
     font-size: 50%;
@@ -130,8 +132,16 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5vh;
   
 }
+
+.Fimg img {
+  border: solid black;
+  background-color: hsl(220, 0%, 15%);
+}
+
+
 
 
 
