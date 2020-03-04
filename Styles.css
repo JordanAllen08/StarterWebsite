@@ -42,17 +42,23 @@ body{
 }
 
 
-
+@media screen and (max-width:768px){
+  .spaceplace{
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    }
+}
 .spaceplace{
-padding-top: 90px;
-padding-bottom: 90px;
+padding-top: 1vh;
+padding-bottom: 1vh;
 }
 
 .navigation-bar{
   background-color: hsl(240, 0%, 45%);
   width: 175vh;
   white-space:nowrap;
-  position: fixed;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   border: solid 5px black;
    margin: 15px;
    height: 12vh;
@@ -63,7 +69,8 @@ padding-bottom: 90px;
     background-color: hsl(240, 0%, 45%);
     width: 93vw;
     white-space:nowrap;
-    position: fixed;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
     border: solid 5px black;
      margin: 2vh;
      height: 15vh;
@@ -75,7 +82,8 @@ padding-bottom: 90px;
     background-color: hsl(240, 0%, 45%);
     width: 85vw;
     white-space:nowrap;
-    position: fixed;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
     border: solid 5px black;
      margin: 2vh;
      height: 15vh;
@@ -87,7 +95,6 @@ padding-bottom: 90px;
   height: 10.5vh;
 
   position: relative;
-  animation-name: example;
   animation-duration: 4s;
   animation-name: slide;
   animation: slide 10s infinite
@@ -222,24 +229,84 @@ padding-bottom: 90px;
   }
 }
 
-
-
 .logo {
     display: inline-block;
     margin: 15px;
     width: auto;
     height: 11vh;
+
+}
+
+@keyframes lower{
+  0%   { left: 33vw; top:0px;}
+  25%  { left: 16.5vw; top:0px;}
+  50%  { left: 0px; top:0px;}
+  75%  { left: 16.5vw; top:0px;}
+  100% { left: 33vw; top:0px;}
+}
+
+@keyframes lowerM{
+  0%   { left: 61vw; top:0px;}
+  25%  { left: 30.5vw; top:0px;}
+  50%  { left: 0px; top:0px;}
+  75%  { left: 30.5vw; top:0px;}
+  100% { left: 61vw; top:0px;}
+}
+
+@media screen and (max-width:768px){
+  .logo {
+    display: inline-block;
+    margin: 15px;
     width: auto;
+    height: 11vh;
+
+    position: relative;
+    animation: lower 4s infinite
+  }
 }
 
 @media screen and (max-width:450px){
   .logo {
-    flex-wrap: wrap;
-    margin: 1px;
+    display: inline-block;
+    margin: 15px;
+    width: auto;
+    height: 11vh;
+
+    position: relative;
+    animation: lowerM 4s infinite
+  }
+}
+
+
+
+.social{
+    float: right;
+    object-fit: cover;
+    margin: 15px;
+    width: auto;
+    height: 11vh;
+}
+
+@media screen and (max-width:450px){
+  .social{
+  float: left;
+  flex-wrap: wrap;
+   object-fit: cover;
+  margin: 10.5px;
+   width: auto;
+   height: 11vh;
+}
+}
+
+@media screen and (max-width:450px){
+  .logo {
+    object-fit: cover;
     Width: auto;
     height: 11vh;
-    
-}
+      left: 4vw;
+    margin: 1px;
+  }
+
 }
 
 .linknav{
@@ -317,8 +384,8 @@ footer{
   width: 175vh;
   white-space:nowrap;
   border: solid 5px black;
-   margin: 15px;
-   height: 13vh;
+  margin: 15px;
+  height: 13vh;
 }
 
 @media screen and (max-width:768px){
@@ -341,17 +408,18 @@ footer{
     white-space:nowrap;
     border: solid 5px black;
      margin: 15px;
-     height: 14vh;
+     height: 25vh;
   }
 }
+
 
 
 #topper{
   font-size: 5vh;
   float: right;
+  
   border-style: solid;
   border-width: 1vh;
-  border-color: white;
   background-color: darkgray;
 }
 
