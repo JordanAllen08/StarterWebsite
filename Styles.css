@@ -118,7 +118,7 @@ padding-bottom: 90px;
     display: inline-block;
     margin: 15px;
     width: auto;
-    height: 15vh;
+    height: 11vh;
     width: auto;
 }
 
@@ -167,12 +167,15 @@ padding-bottom: 90px;
 
 
 footer{
-  
-  background-color: hsl(240, 0%, 50%);
-  width: 181.5vh;
   margin-top: 2vh;
-
+  background-color: hsl(240, 0%, 45%);
+  width: 175vh;
+  white-space:nowrap;
+  border: solid 5px black;
+   margin: 15px;
+   height: 13vh;
 }
+
 
 #topper{
   font-size: 5vh;
