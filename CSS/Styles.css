@@ -278,9 +278,8 @@ padding-bottom: 1vh;
     margin: 15px;
     width: auto;
     height: 11vh;
-
     position: relative;
-    animation: lower 4s infinite
+    animation: infinite-spinning 4s infinite
   }
 }
 
@@ -290,7 +289,6 @@ padding-bottom: 1vh;
     margin: 15px;
     width: auto;
     height: 11vh;
-
     position: relative;
     animation: infinite-spinning 4s infinite
   }
