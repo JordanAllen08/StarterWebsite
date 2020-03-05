@@ -292,7 +292,7 @@ padding-bottom: 1vh;
     height: 11vh;
 
     position: relative;
-    animation: lowerM 4s infinite
+    animation: infinite-spinning 4s infinite
   }
 }
 
