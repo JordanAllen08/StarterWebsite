@@ -245,10 +245,15 @@ padding-bottom: 1vh;
 
 .logo {
     display: inline-block;
-    margin: 15px;
+    margin: 9px;
     width: auto;
     height: 11vh;
+    animation: infinite-spinning 8s infinite
+}
 
+@keyframes infinite-spinning {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
 }
 
 @keyframes lower{
@@ -648,6 +653,13 @@ footer img{
     font-family: arial;
     background-color: hsl(240, 0%, 25%);
     padding: 25px;
+    color: white;
+  }
+
+  .price {
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
   }
 
   @media screen and (max-width:768px){
@@ -659,13 +671,11 @@ footer img{
       font-family: arial;
       background-color: hsl(240, 0%, 25%);
       padding: 25px;
+      color: white;
     }
   }
   
-  .price {
-    color: black;
-    font-size: 22px;
-  }
+  
   
   .card button {
     border: none;
