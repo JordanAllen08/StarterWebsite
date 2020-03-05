@@ -50,7 +50,7 @@ body{
 @media screen and (max-width:768px){
   body{
   background-image: url(../Images/YellowBoard.jpg);
-  background-size: 350vh;
+  background-size: auto;
   }
 }
 
