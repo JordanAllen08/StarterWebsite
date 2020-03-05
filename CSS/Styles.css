@@ -250,7 +250,7 @@ padding-bottom: 1vh;
     margin: 9px;
     width: auto;
     height: 11vh;
-    animation: infinite-spinning 8s infinite
+    animation: infinite-spinning 12s infinite
 }
 
 @keyframes infinite-spinning {
