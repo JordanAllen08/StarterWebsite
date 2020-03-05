@@ -3,9 +3,8 @@
 /* Responsible for text changing sizes upon screen changing 600px 
 CSS - error was browser related upon switching browsers the .css file was updated!
 
+@media screen and (max-width:450px)
 @media screen and (max-width:768px){
-
-
 
 }
 
