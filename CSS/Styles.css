@@ -1,12 +1,8 @@
 
 /* Responsible for text changing sizes upon screen changing 600px 
 CSS - error was browser related upon switching browsers the .css file was updated!
-
 @media screen and (max-width:450px)
-@media screen and (max-width:768px){
-
-}
-
+@media screen and (max-width:768px)
 */
 
 h1{
@@ -43,20 +39,23 @@ body{
 
     /* Full height */
   height: auto;
+
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:768px){
   body{
   background-image: url(../Images/YellowBoard.jpg);
-  background-size: auto;
+
   }
 }
 
-
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .spaceplace{
     padding-top: 2vh;
@@ -80,6 +79,8 @@ padding-bottom: 1vh;
    height: 12vh;
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .navigation-bar{
     background-color: hsl(240, 0%, 45%);
@@ -93,6 +94,7 @@ padding-bottom: 1vh;
   }
 }
 
+/*   screen sizes   */
 @media screen and (max-width:450px){
   .navigation-bar{
     background-color: hsl(240, 0%, 45%);
@@ -116,6 +118,7 @@ padding-bottom: 1vh;
   animation: slide 10s infinite
 }
 
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .navigation-bar img{
     display: none;
@@ -145,6 +148,7 @@ padding-bottom: 1vh;
   text-align: center;
 }
 
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .linknav nav ul li {
     min-width:30px;
@@ -172,6 +176,8 @@ padding-bottom: 1vh;
 	text-shadow:0px 1px 0px #ffffff;
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .buttonNav{
     box-shadow: 0px 1px 0px 0px #ebebeb;
@@ -190,6 +196,8 @@ padding-bottom: 1vh;
   }
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:450px){
   .buttonNav{
     box-shadow: 0px 1px 0px 0px #ebebeb;
@@ -226,6 +234,8 @@ padding-bottom: 1vh;
 	text-shadow:0px 1px 0px #ffffff;
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .buttonNav:hover{
     box-shadow: 0px 1px 0px 0px #ebebeb;
@@ -274,6 +284,8 @@ padding-bottom: 1vh;
   100% { left: 61vw; top:0px;}
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .logo {
     display: inline-block;
@@ -285,6 +297,8 @@ padding-bottom: 1vh;
   }
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:450px){
   .logo {
     display: inline-block;
@@ -306,6 +320,8 @@ padding-bottom: 1vh;
     height: 11vh;
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:450px){
   .social{
   float: left;
@@ -317,6 +333,8 @@ padding-bottom: 1vh;
 }
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:450px){
   .logo {
     object-fit: cover;
@@ -334,6 +352,8 @@ padding-bottom: 1vh;
   
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:768px){
 .linknav{
   float: left;
@@ -343,6 +363,8 @@ padding-bottom: 1vh;
 
 
 
+
+/*   screen sizes   */
 @media screen and (max-width:450px){
   .linknav{
     margin: 10px;
@@ -360,6 +382,8 @@ padding-bottom: 1vh;
     background-color: #6b6b6b;
 }
 
+
+/*   screen sizes   */
 @media screen and (max-width:768px){
   .linknav a{
     border-style: solid;
@@ -407,6 +431,7 @@ footer{
   height: 13vh;
 }
 
+/*   screen sizes   */
 @media screen and (max-width:768px){
   footer{
     margin-top: 2vh;
@@ -419,6 +444,7 @@ footer{
   }
 }
 
+/*   screen sizes   */
 @media screen and (max-width:450px){
   footer{
     margin-top: 2vh;
@@ -442,6 +468,7 @@ footer{
   background-color: darkgray;
 }
 
+/*   screen sizes   */
 @media screen and (max-width:768px){
   #topper{
     display: none;
@@ -452,6 +479,7 @@ footer a{
  width: auto;
 }
 
+/*   screen sizes   */
 @media screen and (max-width:450px){
   footer a{
     width: 1vw;
@@ -463,6 +491,7 @@ footer img{
   height: 2vh;
 }
 
+/*   screen sizes   */
 @media screen and (max-width:450px){
   footer img{
     width: 1vw;
@@ -476,10 +505,13 @@ footer img{
     width: 67.56vw;
     height: auto;
     border: 2px solid black;
+    padding: 20px;
     background-color: lightgray;
     overflow:hidden;
   }
 
+ 
+/*   screen sizes   */
   @media screen and (max-width:768px){
     .containter{
       margin-left: 4.5vh;
@@ -490,7 +522,7 @@ footer img{
         overflow:hidden;
       }
   }
-
+/*   screen sizes   */
   @media screen and (max-width:450px){
     .containter{
       margin-left: 4.5vh;
@@ -525,6 +557,7 @@ footer img{
     line-height: normal;
   }
 
+  /*   screen sizes   */
   @media screen and (max-width:768px){
     .containter span {
       font-size: 20px;
@@ -546,6 +579,7 @@ footer img{
     border-radius: 75%;
   }
 
+  /*   screen sizes   */
   @media screen and (max-width:768px){
     .column img{
       display: none;
@@ -633,6 +667,7 @@ footer img{
     height: auto;
   }
 
+  /*   screen sizes   */
   @media screen and (max-width:768px){
     .iptext{
       font-size: 30px;
@@ -669,6 +704,7 @@ footer img{
     font-size: 22px;
   }
 
+  /*   screen sizes   */
   @media screen and (max-width:768px){
     .card {
       box-shadow: 1px 4px 8px 0 hsl(220, 0%, 15%);
